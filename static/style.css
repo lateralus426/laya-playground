@@ -182,6 +182,7 @@ button.ghost { border-color: transparent; color: var(--faint); padding: 6px 8px;
 .seg { display: inline-flex; border: 1px solid var(--line); }
 .seg button { border: 0; color: var(--dim); }
 .seg button.on { background: var(--amber); color: var(--ink); }
+.controls > button.on { background: var(--amber); border-color: var(--amber); color: var(--ink); }
 input[type=text], select, textarea { width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 0; background: var(--surface); color: var(--text); }
 /* the native arrow cannot be positioned; this chevron's tip sits 10px in, the same inset as the text */
 select { appearance: none; padding-right: 30px; color-scheme: dark;

@@ -30,6 +30,9 @@ HOST, PORT = "127.0.0.1", int(os.environ.get("PORT", "8770"))
 ROOT = os.path.dirname(os.path.abspath(__file__))
 PAGES = {"/": "index.html", "/index.html": "index.html", "/about": "about.html", "/about.html": "about.html",
          "/playground": "playground.html", "/playground.html": "playground.html",
+         "/tetris": "tetris.html", "/tetris.html": "tetris.html",
+         "/flappy": "flappy.html", "/flappy.html": "flappy.html",
+         "/runner": "runner.html", "/runner.html": "runner.html",
          "/robots.txt": "robots.txt", "/sitemap.xml": "sitemap.xml", "/og.png": "og.png", "/favicon.svg": "favicon.svg"}
 PUBLIC = tuple(os.path.realpath(os.path.join(ROOT, d)) + os.sep for d in ("static", "skills"))  # served as files
 MODELS = ("english", "multilingual", "typed-decisions")
